@@ -12,8 +12,12 @@ function check(button) {
   if (xUser === xCorrect && yUser === yCorrect) {
     result.textContent = "✅ Correcto";
     result.className = "result ok";
+    console.log("✅ Correcto");
+    console.log("result ok");
   } else {
     result.textContent = "❌ Revisa la solución";
     result.className = "result error";
+    console.log("❌ Revisa la solución");
+    console.log("result error");
   }
 }
